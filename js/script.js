@@ -18,17 +18,6 @@ document.addEventListener("click", function (e) {
   }
 });
 
-// Klik donasi sekarang langsung ke DM instagram
-
-document
-  .getElementById("donasiNow")
-  .addEventListener("click", function (event) {
-    event.preventDefault();
-
-    const url = `https://www.instagram.com/direct/t/106102004124694`;
-    window.open(url, "_blank");
-  });
-
 // Klik kirim pesan langsung ke DM instagram
 
 document
