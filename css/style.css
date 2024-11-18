@@ -130,8 +130,8 @@ body {
   font-size: 1.6rem;
   margin-top: 1rem;
   line-height: 1.4;
-  font-weight: 100;
-  text-shadow: 5px 5px 5px rgba(1, 1, 3, 0.5);
+  font-weight: var(--bg);
+  color: #fff;
 }
 
 .hero .content .cta {
@@ -186,7 +186,7 @@ body {
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: var(--bg);
   line-height: 1.6rem;
 }
 
